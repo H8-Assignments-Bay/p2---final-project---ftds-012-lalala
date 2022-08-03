@@ -1,0 +1,8 @@
+requests
+streamlit
+streamlit_option_menu
+pandas
+numpy
+tensorflow-cpu
+
+
