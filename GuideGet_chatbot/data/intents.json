@@ -1,0 +1,83 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "P"],
+     "responses": ["Halo, selamat datang di GuideGet, Kami akan membantu Kk dalam mencari Gadget impian Kk, silahkan ketik Minta Menu ya ka :)", "Hai, selamat datang di GuideGet, Kami akan membantu Kk dalam mencari Gadget impian Kk, selanjutnya ketik Menu ya :)"]
+    },
+    {"tag": "menu",
+     "patterns": ["ada menu apa nih?" , "bisa minta menunya?", "tolong menunya", "bisa dibantu menunya", "mau ke menu lagi dong", "kembali ke menunya ka"],
+     "responses": ["Kk bisa tanya-tanya Aku tentang \n1. Explore Gadget \n2. Beli Gadget \n3. Jual Gadget \n4. Tukar Tambah Gadget"]
+    },
+    {"tag": "1",
+    "patterns": ["1" , "Satu", "Mau Explore Gadget", "explore gadget dong", "explore please"],
+    "responses": ["Kk bisa tanya \nGadget terbaru apa? \nGadget terpopular apa? \nGadget termurah apa?"]
+    },
+    {"tag": "gadget_terbaru",
+    "patterns": ["gadget terbaru apa ?", "Gadget terbaru apa ?", "Smartphone terbaru apa"],
+    "responses": ["Gadget terbaru ada Apple Iphone 11 yang release 10 September 2019"]
+    },
+    {"tag": "gadget_popular",
+    "patterns": ["gadget terpopular apa ya ?", "Gadget paling popular apa nih?", "Smartphone paling popular apa ?", "gadget yang lagi viral apa ya ?", "gadget yang sedang viral apa nih ?"],
+    "responses": ["Gadget paling popular ada Apple Iphone XS With Facetime - 512 GB 4 GB Ram Gold harga IDR 22,873,228"]
+    },
+    {"tag": "gadget_termurah",
+    "patterns": ["gadget termurah apa ya ?", "Gadget paling murah apa ya ?", "Smartphone paling murah apa ya ?", "gadget murah ada ?"],
+    "responses": ["Gadget paling murah ada samsung Galaxy S10 Plus Dual Physical SIM - 128GB 6 GB Ram Prism Green harga IDR 10,456,990"]
+    },
+    {"tag": "2",
+    "patterns": ["2" , "Mau beli gadget", "Dua", "beli gadget dong", "beli please"],
+    "responses": ["Kk bisa tanya \nLokasi toko ada dimana saja ya ? \nApakah stock tersedia ? \nCara beli online gimana ya ?"]
+    },
+    {"tag": "lokasi_toko",
+    "patterns": ["lokasi toko GuideGet dimana saja ya ?" , "dimana lokasi tokonya ?", "lokasi toko ada dimana saja ya", "toko GuideGet dimana saja ?"],
+    "responses": ["Kk bisa temukan lokasi Toko GuideGet di Jakarta, Tangerang, Depok, Bogor, silahkan mampir yang terdekat dengan Kk ya :)"]
+    },
+    {"tag": "cek_stock",
+    "patterns": ["Apakah stock Iphone 11 ada ?" , "Apakah stock Iphone XS ada ?", "Apakah stock Iphone XR ada ?", "Apakah stock Samsung S10 Plus ada ?"],
+    "responses": ["Stock available di semua store GuideGet ka :)"]
+    },
+    {"tag": "linkbeli_online",
+    "patterns": ["cara beli online gimana ya ?" , "apakah pembelian bisa via online ?", "bisa bantu pembelian online ?", "beli hpnya bisa online ?"],
+    "responses": ["Bisa ka via link ini https://guideget-app.herokuapp.com/ :)"]
+    },
+    {"tag": "3",
+    "patterns": ["3" , "3.", "mau jual gadgetku dong", "jual gadget gimana ya", "tiga", "bisa dibantu untuk jual gadgetnya?"],
+    "responses": ["Kk bisa tanya \nLokasi toko ada dimana saja ya ? \nCara jual online gimana ya ?"]
+    },
+    {"tag": "linkjual_online",
+    "patterns": ["cara jual online gimana ya ?" , "apakah jual bisa via online ?", "bisa bantu penjualan via online ?", "jual hpnya bisa online ?"],
+    "responses": ["Bisa ka via link ini https://guideget-app.herokuapp.com/ :)"]
+    },
+    {"tag": "4",
+    "patterns": ["4" , "4.", "empat", "tukar tambah gadget", "tukar tambah please", "tukar tambah gadget dong"],
+    "responses": ["Tukar tambah Kk bisa cek harga Gadgetnya di https://guideget-app.herokuapp.com/, kemudian transaksi bisa langsung ke Toko GuideGet ya :)"]
+    },
+    {"tag": "bye",
+     "patterns": ["sip sip", "sip siip", "Terimakasih ya" , "Terimakasih", "Thankyou", "Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
+     "responses": ["Terimakasih, tentang Gadget hubungi GuideGet ya :)", "Semoga harimu menyenangkan, tentang Gadget hubungi GuideGet ya :)"]
+    },
+    {"tag": "nama",
+     "patterns": ["nama kamu siapa?", "lu siapa?", "siapa sih lo?", "lu sape ?", "nama lo sape dah ?", "nama?"],
+     "responses": ["Namaku Gege, salam kenal Kak :)", "Halo, Aku Gege dari GuideGet", "Kenalin, Aku Gege dari GuideGet"]
+    },
+    {"tag": "pekerjaan",
+     "patterns": ["lu ngapain?", "pekerjaan kamu apa?", "lu kerja apa?", "tugas kamu apa?", "tugas lo ngapain?"],
+     "responses": ["Aku bantu Kk dalam mencari Gadget Impian Kk :)", "Tugasku jadi asisten Guidget supaya Kk bisa dapet Gadget impian Kk :)"]
+    },
+    {"tag": "GuideGet",
+    "patterns": ["emang GuidGet apa si?", "apa tuh GuidGet?", "guideget itu apa ya?", "wah apa tuh GuideGet?", "guideget emang apa?"],
+    "responses": ["GuideGet adalah platform yang akan membantu dalam mencari Gadget yang Kk impikan :)"]
+    },
+    {"tag": "guideget_typo",
+    "patterns": ["emang gaidget apa ?", "apaan si gadget?", "emang godget apa sih?", "wah apa tuh gaid get?", "gatget emang apa?", "gat get itu apa sih"],
+    "responses": ["GuideGet ya Ka, pelan-pelan aja ngetiknya biar ga typo, Kami siap melayani kapanpun ko :)"]
+    },
+    {"tag": "expression",
+    "patterns": ["wow", "mantaaap!", "kereeen!", "mantap", "keren banget", "wiiih"],
+    "responses": ["Ada yang bisa Aku bantu lagi ka? :)"]
+    },
+    {"tag": "kemampuan",
+     "patterns": ["kamu bisa apa?", "apa yang bisa anda lakukan?", "kamu bisa ngapain aja?", "lo bisa ngapain?", "apa kemampuan lo?"],
+     "responses": ["Kakak bisa tanya-tanya nama aku, apa yang aku lakukan dan yang berhubungan dengan GuideGet", "Pokoknya yang berhubungan sama GuideGet kak :)"]
+    }
+]
+}
